@@ -3,7 +3,7 @@ Emily Aguilar-Pine
 
 This repository is largely to help create a baseline for the Baker/De Anda labs to begin processing and analyzing Oxford Nanopore Technologies data from P2 Solo sequencing machines. 
 
-There are 4 main steps for this repository: 
+There are 4 main steps (represented as individual directories) for this repository: 
 
 1) Read Processing
 2) Assembly
