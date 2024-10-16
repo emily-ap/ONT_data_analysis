@@ -1,0 +1,7 @@
+### It is expected that lots of ONT data will be generated in the future. The relevant kit chemistry and flow cells used by the Baker lab can be seen below along with the associated sequencing projects. Please note, this does not specify if Illumina was also done for these projects. 
+
+
+### Library Prep Kit: 
+### Flow Cell Type: 
+
+
