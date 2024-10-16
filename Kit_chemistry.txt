@@ -1,7 +1,14 @@
-### It is expected that lots of ONT data will be generated in the future. The relevant kit chemistry and flow cells used by the Baker lab can be seen below along with the associated sequencing projects. Please note, this does not specify if Illumina was also done for these projects. 
+It is expected that lots of ONT data will be generated in the future. The relevant kit chemistry and flow cells used by the Baker lab can be seen below along with the associated sequencing projects. Please note, this does not specify if Illumina was also done for these projects. 
 
 
-### Library Prep Kit: 
-### Flow Cell Type: 
 
+Library Prep Kit: Rapid Sequencing Kit V14 (SQK-RAD114), https://store.nanoporetech.com/us/promethion-    flow-cell-packs-r10-4-1-m-version.html
+Flow Cell Type: Flow Cells FLO-PRO114M (contains 4 flow cells), https://store.nanoporetech.com/us/promethion-flow-cell-packs-r10-4-1-m-version.html, Chemistry Type R10.4.1
+Flow Cell Wash Kit (EXP-WSH004), https://store.nanoporetech.com/us/flow-cell-wash.html
+
+The following sequencing projects were completed with the above sequencing chemistry. 
+
+1) AT50-22 on board sequencing (5252, 5253, 5258) 
+2) Mordor Rock in lab sequencing (Austin) (5264) 
+3) AT50-22 Dive 5266 Core 12 in lab sequencing (Austin) (5266) 
 
