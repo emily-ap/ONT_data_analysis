@@ -1,0 +1,7 @@
+Hello! 
+
+Sometimes data may call for a coassembly over a single/individual assembly. Visit this link to learn more about what a coassembly is: 
+https://astrobiomike.github.io/metagenomics/metagen_anvio#:~:text=“Co%2Dassembly”%20refers%20to,reads%20from%20that%20individual%20sample
+
+To perform a coassembly, you can use the same flye.sh script within this directory of the github repository. The only difference will be that instead of an individual read file, you will concatenate all the reads you'd like to use for the coassembly into one large reads file. Then you can use this as your input reads file in the flye.sh script. 
+Generally, a coassembly will help if you're struggling with coverage (i.e. your coverage is too low). The flye.sh script has an added part at the end to make a file with some base statistics. This output file will show you what flye listed as the mean coverage of your assembly. When I have a coverage of 30+ from this output file my binning is more successful. 
