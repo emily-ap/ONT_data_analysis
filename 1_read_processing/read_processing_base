@@ -1,21 +1,4 @@
-# Base protocol for read processing and intro assembly of ONT reads. 
-## EAP 
-
-### Porechop 
-base run: porechop -t $threads -i $reads -o $output
-```{bash}
-threads= 
-reads= 
-output=
-verbosity=
-
-porechop -t $threads -i $reads -o $output --verbosity $verbosity
-
-```
-
 ## NanoPlot
-```{bash}
-#activate conda first
 reads=
 sample=
 threads=
@@ -60,17 +43,3 @@ chopper -q $phred -l $min -i $input >> $output
 ```
 For quality score information: https://help.nanoporetech.com/en/articles/6629615-where-can-i-find-out-more-about-quality-scores
 
-## NanoPlot_1
-```{bash}
-#activate conda first
-reads=
-sample=
-threads=
-outdir=
-output= 
-
-
-NanoPlot --threads $threads --prefix $sample --tsv_stats --outdir $outdir --loglength --color blue --format jpeg --plots kde dot --legacy hex --title $sample --fastq $reads
-
-```
-Copy these to local computer and view. The -report file has all information summarized. Compare with the original nanoplot results.
