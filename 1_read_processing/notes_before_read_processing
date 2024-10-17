@@ -1,3 +1,4 @@
+YOUR FINAL OUTPUT FILE FROM THIS WILL BE THE READS YOU USE FOR THE ASSEMBLY AND MAPPING STEPS NEXT.
 Chopper and FiltLong are both used for the same step. You could exclude using one or the other if you prefer. 
 For more quality score information: https://help.nanoporetech.com/en/articles/6629615-where-can-i-find-out-more-about-quality-scores
 A note, porechop requires a specific set up including editing the adapter file in the servers. The adapter that I've made sure it looks for are the following (update this by editing this file: Porechop/build/lib/porechop): 
