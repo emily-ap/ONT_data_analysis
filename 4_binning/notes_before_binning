@@ -1,0 +1,8 @@
+When you run metabat2 and concoct, if you're running with more than one mapping file, for assigning the coverage variable, it can look something like this: 
+
+coverage_files=path/to/coverage/files/*.sorted.bam
+
+For CONCOCT, please note it's very finnicky with accepting bam, sorted, and indexed files. When you run concoct, the sorted bams and the indexed bams (which you made from the sorted bams), adn the sam files need to be in the same path.
+Sometimes it doesn't like when the actual ban files are also there though. What I've had work is to move the bams you created with samtools view into a different directory (keep them!). Then you can rename the sorted.bams to just .bam (make sure to change this back later). Then try running concoct withe the renamed sorted.bams, the indexed bams, and the sam files all in the same directory. 
+
+If this doesn't make sense, see the following github link: https://github.com/BinPro/CONCOCT/issues/277
