@@ -1,0 +1,12 @@
+If you're having coverage issues and would like to look at alternative helpful binning methods other than single sample assembly and binning, binning with differential coverage can be helpful. 
+
+In this case, you'd map reads from each sample back to each assembly. For example, if you have 14 samples and want to bin with differential coverage, then 
+1) you would assembly each samle individually. 
+2) you would map each sample's reads back to each sample's assembly. 
+
+This scales exponentially, meaning, you'd run a mapping step 196 times because you're starting with 14 samples. 14x14 = 196. 
+
+Then once you've entered the binning portion, you'd use every bam generated to bin each sample (i.e. for each sample, you'd use all 14 of it's mapping pairs to bin, so each sample would have 14 bams being used to bin rather than 1). 
+
+For a coassembly, you'd want to map all the reads which were combined back to the coassembly. In this example, if you'd coassembled 14 samples, you'd map each sample's reads to the coassembly, meaning you'd run the mapping step 14 times. 
+
